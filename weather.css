@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #091f43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+
+#heading {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  
+}
+
+.user-form {
+  width: 100%;
+  max-width: 700px;
+}
+.user-form input {
+  border: none;
+  background-color: #d8e5f2;
+  width: 100%;
+  color: #091f43;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.3rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.user-form input::placeholder {
+  color: #bbb;
+}
+.user-form input:focus {
+  outline: none;
+}
+#card {
+  text-align: center;
+  display: flex;
+  max-width: 800px;
+  font-size: 1.5rem;
+  color: #d8e5f2;
+  border-radius: 20px;
+
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.weather-info h2 {
+  margin-top: 0;
+}
